@@ -13,14 +13,14 @@ public class Atividade1Entry {
 			registroNotaTui.registrarPesos();
 		} catch (PesoInvalidoException e) {
 
-			System.out.println("Peso invalido");
+			System.out.println("Peso invalido!");
 			e.printStackTrace();
 		}
 
 		try {
 			registroNotaTui.registarNotas();
 		} catch (NotaInvalidaException e) {
-			System.out.println("Nota invalida");
+			System.out.println("Nota invalida!");
 			e.printStackTrace();
 		}
 
